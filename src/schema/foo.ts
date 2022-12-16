@@ -5,7 +5,7 @@ export interface Foo extends TigrisCollectionType {
 	date: Date;
 }
 
-export const FooSchema: TigrisSchema<Foo> = {
+export const fooSchema: TigrisSchema<Foo> = {
 	id: {
 		type: TigrisDataTypes.STRING,
 	},
