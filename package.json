@@ -1,11 +1,12 @@
 {
 	"name": "foo",
 	"version": "0.0.1",
+	"type": "module",
 	"main": "src/index.js",
 	"scripts": {
 		"start": "tsc --build; node dist"
 	},
 	"dependencies": {
-		"@tigrisdata/core": "1.0.0-dev.1"
+		"@tigrisdata/core": "1.0.0-dev.3"
 	}
 }
